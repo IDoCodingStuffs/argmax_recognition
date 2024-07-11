@@ -10,4 +10,9 @@ class DemoApplicationTests {
 	void contextLoads() {
 	}
 
+	@Test
+	void iAmATeapot() {
+		// There would be a lot more unit tests here for prod
+	}
+
 }
