@@ -6,10 +6,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class DemoApplication {
+public class RequestServingController {
 
   @PostMapping("/pfp_recognition")
-  Employee newEmployee(@RequestBody String rq) {
+  String pfpRecognition() {
     return "Hello world!";
   }
 }
