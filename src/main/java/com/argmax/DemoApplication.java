@@ -1,4 +1,4 @@
-package com.argmax.demo;
+package com.argmax;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
